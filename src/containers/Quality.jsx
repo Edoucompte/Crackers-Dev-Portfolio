@@ -42,28 +42,28 @@ export default function Quality() {
                 <div className="flex flex-row flex-wrap gap-4 md:gap-12 p-4 items-center justify-center">
                     {/* Collab é è à â ê ô */}
                     <QualityCard title={qualities[0].title} desciption={qualities[0].description}>
-                        <div className="mx-auto flex items-center justify-center h-12 w-12 bg-black rounded-full text-white">
+                        <div className="mx-auto flex items-center justify-center h-12 w-12 bg-gray-700 rounded-full text-white">
                             <TbHeartHandshake size={30}/>
                         </div>
                     </ QualityCard>
 
                     {/* fiabilité é è à â ê ô */}
                     <QualityCard title={qualities[1].title} desciption={qualities[1].description}>
-                        <div className="mx-auto flex items-center justify-center h-12 w-12 bg-black rounded-full text-white p-3.5">
+                        <div className="mx-auto flex items-center justify-center h-12 w-12 bg-gray-700 rounded-full text-white p-3.5">
                             <img src={stroke} alt="fiabilité" />
                         </div>
                     </ QualityCard>
 
                     {/* INNOVATION é è à â ê ô */}
                     <QualityCard title={qualities[2].title} desciption={qualities[2].description}>
-                        <div className="mx-auto flex items-center justify-center h-12 w-12 bg-black rounded-full text-white p-3.5">
+                        <div className="mx-auto flex items-center justify-center h-12 w-12 bg-gray-700 rounded-full text-white p-3.5">
                             <FaLightbulb size={23}/>
                         </div>
                     </ QualityCard>
 
                     {/* Responsivité é è à â ê ô */}
                     <QualityCard title={qualities[3].title} desciption={qualities[3].description}>
-                        <div className="mx-auto flex items-center justify-center h-12 w-12 bg-black rounded-full text-white p-[1.02rem]">
+                        <div className="mx-auto flex items-center justify-center h-12 w-12 bg-gray-700 rounded-full text-white p-[1.02rem]">
                         <img src={mobile} alt="Responsivité" />
                         </div>
                     </ QualityCard>

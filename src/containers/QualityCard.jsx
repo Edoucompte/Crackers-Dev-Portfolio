@@ -5,14 +5,16 @@ export default function QualityCard({
   children
 }) {
   return (
-    <div className=' w-[300px] h-[200px] px-3 py-5'> {/* shadow-md shadow-blue-400 rounded-xl*/}
+    <div className=' w-[300px] px-3 py-5 bg-gray-100 dark:bg-gray-900 rounded-[0.5rem]'> {/* shadow-md shadow-blue-400 rounded-xl*/}
         {/* logo */}
-        <div className='flex'>
+        <div className='flex mb-3'>
           {children}
         </div>
         {/* text */}
-        <p className='font-semibold mb-3'>{title}</p>
-        <p className=' text-xs'>{desciption}</p>
+        <div className="px-2 py-7">
+          <p className='font-semibold mb-3'>{title}</p>
+          <p className=' text-xs'>{desciption}</p>
+        </div>
     </div>
   )
 }
