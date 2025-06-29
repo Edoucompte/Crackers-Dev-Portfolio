@@ -11,8 +11,12 @@ export default function MyNavbar() {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            className="menu menu-sm dropdown-content bg-base-100 text-base-content rounded-box z-1 mt-3 w-52 p-2 shadow">
                             <li><a>Accueil</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#projets">Projets</a></li>
+                            <li><a href="#about">A propos</a></li>
+                            <li><a href="#contactUs">Nous contacter</a></li>
                             {/* <li>
                                 <a>Parent</a>
                                 <ul className="p-2">
@@ -20,10 +24,9 @@ export default function MyNavbar() {
                                     <li><a>Submenu 2</a></li>
                                 </ul>
                             </li> */}
-                            <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <a href="#"><h2 className="cursor-pointer text-xl text-blue-800">Crackers Dev</h2></a>
+                    <a href="#"><h2 className="cursor-pointer text-xl sm:text-3xl text-blue-800 font-bold">Crackers Dev</h2></a>
                 </div>
                 {/*  Menu meme */}
                 <div className="navbar-center hidden lg:flex">
@@ -48,7 +51,7 @@ export default function MyNavbar() {
                 {/*  Bouton d'action à é è â ô ê */}
                 <div className="navbar-end">
                     <button className="bg-blue-800 text-white">
-                        <a href="#" className="text-xs md:text-xl">Commencer</a>
+                        <a href="#" className="text-xs md:text-[1.03rem]">Commencer</a>
                     </button>
                 </div>
             </div>

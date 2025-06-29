@@ -23,7 +23,7 @@ export default function Quality() {
     <div >
         {/* Nos QUALITES é è à â ê ô*/}
 
-        <div className='flex fiexd inset-0 z-1 w-[calc(100vw-15px)] bg-base-100 text-base-content'>
+        <div className='flex fiexd inset-0 z-1 w-full bg-base-100 text-base-content'>
             <div className=' w-[90%] mx-auto text-center py-12 text-blue-800 dark:text-white '>
                 <h3 className='text-xl md:text-3xl font-semibold mb-4 text-blue-800'>Choisir Crackers Dev pour votre parcours digital </h3>
                 <p className="mb-2 px-4 md:px-20 text-xs md:text-[0.98rem] ">

@@ -5,7 +5,7 @@ export default function Landing() {
   return (
     <div >
         {/* back ground with picture */}
-        <div className='relative inset-0 z-0 w-[calc(100vw-1rem)] h-[100vh] bg-cover bg-center text-white'
+        <div className='relative inset-0 z-0 w-full h-[100vh] bg-cover bg-center text-white'
             style={{ backgroundImage: `url(${landing})` }}
         >
             {/* Overlay pour assombrir l'image */}

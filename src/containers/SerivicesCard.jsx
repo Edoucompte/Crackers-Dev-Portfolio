@@ -13,7 +13,11 @@ export default function SerivicesCard({
         {/* text */}
         <p className='font-semibold mb-3'>{title}</p>
         <p className=' text-xs'>{desciption}</p>
-        <button><a href={link} target="_blank" rel="noopener noreferrer"></a></button>
+        <button>
+            <a href={link} target="_blank" rel="noopener noreferrer">
+                Visiter
+            </a>
+        </button>
     </div>
   )
 }

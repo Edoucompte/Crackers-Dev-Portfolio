@@ -10,7 +10,7 @@ export default function Services() {
     }
   ]
   return (
-    <div className='flex fiexd inset-0 z-1 w-[calc(100vw-15px)] bg-base-100 text-base-content'>
+    <div className='flex fiexd inset-0 z-1 w-full bg-base-100 text-base-content'>
       {/* NOS SERVICES é è à â ê ô*/}
             <div className=' w-[90%] mx-auto text-center py-12 text-blue-800 dark:text-white '>
                 <h3 className='text-xl md:text-3xl font-semibold mb-4 text-blue-800'>Nos Services </h3>
