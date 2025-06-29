@@ -1,7 +1,7 @@
 import Landing from './containers/Landing'
 import './App.css'
 import Quality from './containers/Quality'
-import Projects from './containers/Projects'
+import Services from './containers/Services'
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
       <main>
         <Landing />
         <Quality />
-        <Projects />
+        <Services />
       </main>
 
       {/* <div>
