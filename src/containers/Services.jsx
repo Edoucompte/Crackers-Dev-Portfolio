@@ -2,12 +2,17 @@ import React from 'react'
 import SerivicesCard from './SerivicesCard'
 
 export default function Services() {
-  const projects = [
+  const services = [
     {
-      title: "Test",
+      title: "Développement Web",
       description: "Test",
       link: "Test",
-    }
+    },
+    {
+      title: "Développement d'Application Mobile",
+      description: "Test",
+      link: "Test",
+    },
   ]
   return (
     <div className='flex fiexd inset-0 z-1 w-full bg-base-100 text-base-content'>
@@ -19,10 +24,10 @@ export default function Services() {
                 </p>
                 <div className="flex flex-row flex-wrap gap-4 md:gap-12 p-4 items-center justify-center">
                     {
-                        projects.map( (proj, index) => {
+                        services.map( (service, index) => {
                             return(
-                              <SerivicesCard key={index} title={proj.title} 
-                                desciption={proj.description} link={proj.link}/>
+                              <SerivicesCard key={index} title={service.title} 
+                                desciption={service.description} link={service.link}/>
                             )
                         })
                     }
