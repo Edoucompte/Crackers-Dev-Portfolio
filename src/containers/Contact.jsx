@@ -18,16 +18,16 @@ export default function Contact() {
             <p className="mb-4">Rejoins nous à l'instant</p>
             <p className="flex justify-center items-center">
                 <IoLogoWhatsapp />
-                <a href="http://wa.me?to=+33780622899" target="_blank" rel="noopener noreferrer"> 
+                <a href="http://wa.me/0033780622899/" target="_blank" rel="noopener noreferrer"> 
                     : 00 33 7 80 62 28 99
                 </a>
             </p>
 
             <p className="flex justify-center items-center">
                 <IoMailOutline />
-                <a href="http://wa.me?to=+33780622899" target="_blank" rel="noopener noreferrer"> 
+                <span> 
                     : crackers.dev123@gmail.com
-                </a>
+                </span>
             </p>
 
             <button className="bg-blue-800 text-white mt-3"><a href="mailto:crackers.dev123@gmail.com">Laisse un mail</a></button>

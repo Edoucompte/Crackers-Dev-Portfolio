@@ -18,9 +18,9 @@ export default function SerivicesCard({
           </div>
         </div>
         {/* text */}
-        <div className='px-3 py-5'>
+        <div className='p-5'>
           <p className='font-semibold mb-3'>{title}</p>
-          <p className=' text-xs'>{desciption}</p>
+          <p className=' text-xs text-left'>{desciption}</p>
         </div>
         {/* <button>
             <a href={link} target="_blank" rel="noopener noreferrer">

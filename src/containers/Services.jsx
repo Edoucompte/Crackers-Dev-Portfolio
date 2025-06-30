@@ -7,12 +7,12 @@ export default function Services() {
   const services = [
     {
       title: "Développement Web",
-      description: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias vitae illum at non iure quam sunt illo ipsam facilis cum eligendi nobis odit quos nesciunt, explicabo voluptate possimus earum pariatur`,
+      description: `Création de sites vitrines élégants, de boutiques e-commerce robustes ou d'applications web complexes, toutes optimisées pour la performance, la sécurité et l'expérience utilisateur. Nous utilisons les dernières technologies pour des plateformes scalables et responsives qui évoluent avec votre marque.`,
       link: "Test",
     },
     {
       title: "Développement Mobile",
-      description: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias vitae illum at non iure quam sunt illo ipsam facilis cum eligendi nobis odit quos nesciunt, explicabo voluptate possimus earum pariatur`,
+      description: `Notre service de développement mobile conçoit des applications fluides et performantes pour iOS, Android ou en multiplateforme. Nous gérons votre projet de l'idée à la publication sur les stores, en nous concentrant sur l'expérience utilisateur et l'intégration technologique, pour faire de votre ambition mobile une réalité.`,
       link: "Test",
     },
   ]
@@ -20,9 +20,16 @@ export default function Services() {
     <section id='services' className='flex fiexd inset-0 z-1 w-full bg-base-100 text-base-content'>
       {/* NOS SERVICES é è à â ê ô*/}
         <div className=' w-[90%] mx-auto text-center py-12 text-blue-800 dark:text-white '>
-            <h3 className='text-xl md:text-3xl font-semibold mb-4 text-blue-800'>Nos Services </h3>
-            <p className="mb-4 px-4 md:px-20 text-xs md:text-[0.98rem] ">
-                Nous développons les produits digitaux suivants :
+            <h3 className='text-xl md:text-3xl font-semibold mb-4 text-blue-800 text-shadow-blue-600 text-shadow-xs'>Nos Services </h3>
+            <p className="mb-4 px-4 md:px-20 text-xs md:text-[0.98rem] text-left">
+              De l'étincelle initiale à un produit numérique tangible, 
+              nous sommes votre partenaire dédié pour transformer vos idées en succès concrets. 
+              Chez <span className="italic font-semibold text-blue-800"> Crackers Dev</span>, nous vous accompagnons 
+              à chaque étape du parcours de votre transformation digitale. 
+              Notre processus débute par une analyse approfondie de vos besoins et de vos objectifs, 
+              se poursuit par une conception innovante et une phase de développement minutieuse, 
+              pour culminer avec le déploiement et l'hébergement sécurisé de votre solution.
+              Nous développons des solutions web et des applications mobiles.
             </p>
             <div className="flex flex-row flex-wrap gap-6 md:gap-18 p-4 items-center justify-center">
                 {/* Collab é è à â ê ô */}
