@@ -3,6 +3,8 @@ import './App.css'
 import Quality from './containers/Quality'
 import Services from './containers/Services'
 import Projects from './containers/Projects'
+import Contact from './containers/Contact'
+import Footer from './containers/Footer'
 
 function App() {
 
@@ -13,7 +15,9 @@ function App() {
         <Quality />
         <Services />
         <Projects />
+        <Contact />
       </main>
+      <Footer />
 
       {/* <div>
         <a href="https://vite.dev" target="_blank">

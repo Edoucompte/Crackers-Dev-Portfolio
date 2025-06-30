@@ -30,7 +30,7 @@ export default function Quality() {
   }
 
   return (
-    <div >
+    <section id="about" >
         {/* Nos QUALITES */}
 
         <div className='flex fiexd inset-0 z-1 w-full bg-base-100 text-base-content'>
@@ -70,6 +70,6 @@ export default function Quality() {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
   )
 }

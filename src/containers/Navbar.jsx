@@ -12,9 +12,9 @@ export default function MyNavbar() {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 text-base-content rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><a>Accueil</a></li>
+                            <li><a href="#landing">Accueil</a></li>
                             <li><a href="#services">Services</a></li>
-                            <li><a href="#projets">Projets</a></li>
+                            <li><a href="#projects">Projets</a></li>
                             <li><a href="#about">A propos</a></li>
                             <li><a href="#contactUs">Nous contacter</a></li>
                             {/* <li>
@@ -31,7 +31,7 @@ export default function MyNavbar() {
                 {/*  Menu meme */}
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><h2 className="font-inherit"><a href="#">Accueil</a></h2></li>
+                        <li><h2 className="font-inherit"><a href="#landing">Accueil</a></h2></li>
                         <li><a href="#services">Services</a></li>
                         {/* <li>
                             <details>
@@ -42,7 +42,7 @@ export default function MyNavbar() {
                                 </ul>
                             </details>
                         </li> */}
-                        <li><a href="#projets">Projets</a></li>
+                        <li><a href="#projects">Projets</a></li>
                         <li><a href="#about">A propos</a></li>
                         <li><a href="#contactUs">Nous contacter</a></li>
                     </ul>
@@ -51,7 +51,7 @@ export default function MyNavbar() {
                 {/*  Bouton d'action à é è â ô ê */}
                 <div className="navbar-end">
                     <button className="bg-blue-800 text-white">
-                        <a href="#" className="text-xs md:text-[1.03rem]">Commencer</a>
+                        <a href="#about" className="text-xs md:text-[1.03rem]">Commencer</a>
                     </button>
                 </div>
             </div>

@@ -3,7 +3,7 @@ import landing from "../assets/landing4.jpg"
 
 export default function Landing() {
   return (
-    <div >
+    <div id='landing'>
         {/* back ground with picture */}
         <div className='relative inset-0 z-0 w-full h-[100vh] bg-cover bg-center text-white'
             style={{ backgroundImage: `url(${landing})` }}
@@ -33,7 +33,7 @@ export default function Landing() {
                                     <a href="#projets" className='text-xs md:text-xl '>Plus d'infos</a>
                                 </button>
                                 <button className="bg-blue-800 text-white">
-                                    <a href="#contactUs" className=' text-xs sm:text-xl'>Contacter</a>
+                                    <a href="#contactUs" className=' text-xs md:text-xl'>Contacter</a>
                                 </button>
                             </div>
                         </div>

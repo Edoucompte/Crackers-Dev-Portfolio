@@ -59,15 +59,15 @@ export default function Projects() {
           },
       ]
       return (
-        <div className='flex fiexd inset-0 z-1 w-full bg-base-100 text-base-content'>
+        <section id='projects' className='flex fiexd inset-0 z-1 w-full bg-base-100 text-base-content'>
           {/* NOS SERVICES é è à â ê ô*/}
-            <div className=' w-[90%] mx-auto text-center py-12 text-blue-800 dark:text-white '>
+            <div className='w-full sm:w-[90%] mx-auto text-center py-12 text-blue-800 dark:text-white '>
                 <h3 className='text-xl md:text-3xl font-semibold mb-4 text-blue-800'>Nos Projets </h3>
                 <p className="mb-4 px-4 md:px-20 text-xs md:text-[0.98rem] ">
                     Nous comptons quelques plateformes à notre active. Nous vous les présentons pour vous donner
                     un aperçu de nos travaux. Vous pouvez pour mieux les admirer en les visiant sur le web. 
                 </p>
-                <div className="flex flex-col gap-6 md:gap-18 p-4 items-center justify-center">
+                <div className="flex flex-col gap-6 md:gap-18 p-0 sm:p-4 items-center justify-center">
                     {
                         projects.map( (project, index)=> {
                             return (
@@ -83,6 +83,6 @@ export default function Projects() {
                     
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
