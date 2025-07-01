@@ -1,7 +1,6 @@
 import QualityCard from "./QualityCard"
 import stroke from '../assets/Stroke.png'
 import mobile from '../assets/Mobile.png'
-import landing from '../assets/Abstract_Design.png'
 import { FaLightbulb } from "react-icons/fa";
 import { TbHeartHandshake } from "react-icons/tb";
 

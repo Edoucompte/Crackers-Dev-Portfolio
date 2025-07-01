@@ -12,7 +12,7 @@ export default function QualityCard({
         </div>
         {/* text */}
         <div className="px-2 py-7">
-          <p className='font-semibold mb-3'>{title}</p>
+          <p className='font-semibold mb-3'><strong>{title}</strong></p>
           <p className=' text-xs'>{desciption}</p>
         </div>
     </div>

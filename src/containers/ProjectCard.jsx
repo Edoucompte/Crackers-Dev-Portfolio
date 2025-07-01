@@ -21,9 +21,9 @@ export default function ProjectCard({
           </div>
         </div>
         {/* text */}
-        <div className='px-3 py-5'>
-          <p className='font-semibold mb-3 text-2xl'>{title}</p>
-          <p className=' text-xs text-black dark:text-white'>{desciption}</p>
+        <div className='px-3 md:px-10 py-5'>
+          <p className='font-semibold mb-3 text-2xl'><strong>{title}</strong></p>
+          <p className=' text-xs text-black dark:text-white text-left'>{desciption}</p>
         </div>
         <button className='bg-blue-800 mb-4'>
             <a href={link} target="_blank" rel="noopener noreferrer">

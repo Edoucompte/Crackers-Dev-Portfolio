@@ -15,8 +15,7 @@ export default function Landing() {
                 <MyNavbar />
 
                 <div className="flex flex-row flex-wrap-reverse justify-around items-center w-full h-[calc(100vh-50px)]">
-                    {/* About text Notre code accompagne votre vison. Nous donnons vie à vos projets les plus ambitieux 
-                                avec des expériences numériques captivantes.*/}
+                    {/* About text */}
                     <div className='z-2 md:w-[45%] px-10 md:px-4 lg:px-10 text-left flex'>
                         <div className="m-auto">
                             <h3 className='text-2xl md:text-3xl font-semibold landing-title'>
@@ -28,7 +27,7 @@ export default function Landing() {
                             </p>
                             <p className="italic ">
                                 Votre vision devient digitale chez
-                                <span className="italic font-semibold"> Crackers Dev.</span>
+                                <span className="italic font-semibold"> <strong>Crackers Dev</strong>.</span>
                             </p>
                             <div className='flex gap-5 mt-5'>
                                 <button className=" bg-blue-800 text-white ">
