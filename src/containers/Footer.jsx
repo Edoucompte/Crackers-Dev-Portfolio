@@ -10,7 +10,7 @@ export default function Footer() {
             <p><a href="#contactUs">Contact</a></p>
         </div>
 
-        <button className='bg-blue-800'><a href="#landing">Remonter</a></button>
+        <button className='bg-blue-800'><a href="#landing text-white">Remonter</a></button>
     </footer>
   )
 }

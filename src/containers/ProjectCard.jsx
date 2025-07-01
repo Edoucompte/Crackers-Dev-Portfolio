@@ -25,7 +25,7 @@ export default function ProjectCard({
           <p className='font-semibold mb-3 text-2xl'><strong>{title}</strong></p>
           <p className=' text-xs text-black dark:text-white text-left'>{desciption}</p>
         </div>
-        <button className='bg-blue-800 mb-4'>
+        <button className='bg-blue-800 mb-4 text-white'>
             <a href={link} target="_blank" rel="noopener noreferrer">
                 Visiter
             </a>
