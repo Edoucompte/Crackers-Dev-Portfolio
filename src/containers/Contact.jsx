@@ -21,8 +21,8 @@ export default function Contact() {
             <p className="mb-4">Joignez nous à l'instant !</p>
             <p className="flex justify-center items-center">
                 <IoLogoWhatsapp className="mr-2"/>
-                <a href="http://wa.me/+33780622899/" target="_blank" rel="noopener noreferrer"> 
-                    : 00 33 7 80 62 28 99
+                <a href="http://wa.me/+33780622888/" target="_blank" rel="noopener noreferrer"> 
+                    : 00 33 7 80 62 28 88
                 </a>
             </p>
 

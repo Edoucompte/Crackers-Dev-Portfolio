@@ -32,7 +32,7 @@ export default function Projects() {
       {
         title: "Design Graphique",
         description: `"Chaque idée mérite un design qui la met en valeur."
-Depuis 2025, GraphikLand fait de cette conviction son moteur. Elle accompagne entreprises et créateurs dans la réalisation de projets visuels uniques, mêlant créativité et expertise technique.`,
+        Depuis 2025, GraphikLand fait de cette conviction son moteur. Elle accompagne entreprises et créateurs dans la réalisation de projets visuels uniques, mêlant créativité et expertise technique.`,
         link: "https://graphikland-website.vercel.app/",
         cover: graphik,
         littleImg: graphikLittle

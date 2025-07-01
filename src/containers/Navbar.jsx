@@ -15,7 +15,7 @@ export default function MyNavbar() {
                             <li><a href="#landing">Accueil</a></li>
                             <li><a href="#services">Services</a></li>
                             <li><a href="#projects">Projets</a></li>
-                            <li><a href="#about">A propos</a></li>
+                            <li><a href="#contactUs">A propos</a></li>
                             <li><a href="#contactUs">Nous contacter</a></li>
                             {/* <li>
                                 <a>Parent</a>
@@ -43,7 +43,7 @@ export default function MyNavbar() {
                             </details>
                         </li> */}
                         <li><a href="#projects">Projets</a></li>
-                        <li><a href="#about">A propos</a></li>
+                        <li><a href="#contactUs">A propos</a></li>
                         <li><a href="#contactUs">Nous contacter</a></li>
                     </ul>
                 </div>
@@ -51,7 +51,7 @@ export default function MyNavbar() {
                 {/*  Bouton d'action à é è â ô ê */}
                 <div className="navbar-end">
                     <button className="bg-blue-800 text-white">
-                        <a href="#about" className="text-xs md:text-[1.03rem]">Commencer</a>
+                        <a href="#contactUs" className="text-xs md:text-[1.03rem]">Commencer</a>
                     </button>
                 </div>
             </div>
