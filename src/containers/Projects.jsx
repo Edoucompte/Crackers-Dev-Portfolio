@@ -30,9 +30,10 @@ export default function Projects() {
         littleImg: voitureLittle
       },
       {
-        title: "Agence de Graphisme",
-        description: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias vitae illum at non iure quam sunt illo ipsam facilis cum eligendi nobis odit quos nesciunt, explicabo voluptate possimus earum pariatur`,
-        link: "https://www.graphikland-website.vercel.app/",
+        title: "Design Graphique",
+        description: `"Chaque idée mérite un design qui la met en valeur."
+Depuis 2025, GraphikLand fait de cette conviction son moteur. Elle accompagne entreprises et créateurs dans la réalisation de projets visuels uniques, mêlant créativité et expertise technique.`,
+        link: "https://graphikland-website.vercel.app/",
         cover: graphik,
         littleImg: graphikLittle
       },
